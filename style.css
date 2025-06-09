@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(135deg, #000000, #000000);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.container {
+  background: rgb(0, 0, 0);
+  padding: 40px 30px;
+  border-radius: 20px;
+  width: 100%;
+  max-width: 400px;
+  text-align: center;
+  box-shadow: 0 10px 30px rgba(208, 204, 204, 0.5);
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 4px solid #2A5298;
+  margin-bottom: 20px;
+  object-fit: cover;
+}
+
+.name {
+  font-size: 28px;
+  font-weight: 600;
+  color: #ffffff;
+  margin-bottom: 8px;
+}
+
+.bio {
+  font-size: 16px;
+  color: #898282;
+  margin-bottom: 30px;
+}
+
+.links a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #2A5298;
+  color: white;
+  text-decoration: none;
+  padding: 12px 20px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  margin: 12px 0;
+  transition: background 0.3s ease;
+}
+
+.links a i {
+  margin-right: 10px;
+  font-size: 18px;
+}
+
+.links a:hover {
+  background: #1E3C72;
+  box-shadow: 0 0 10px #1E3C72;
+}
+
+.skills-title {
+  margin-top: 40px;
+  font-size: 22px;
+  font-weight: 600;
+  color: #f4f1f1;
+}
+
+.skills {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-weight: 600;
+  color: #ede5e29f;
+  width: 70px;
+}
+
+.skill i {
+  font-size: 36px;
+  margin-bottom: 6px;
+}
